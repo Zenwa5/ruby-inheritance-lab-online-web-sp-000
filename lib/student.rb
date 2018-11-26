@@ -3,5 +3,6 @@ class Student < User
   KNOWLEDGE = []
 
   def learn
-    KNOWLEDGE << KNOWLEDGE.sample 
+    KNOWLEDGE << KNOWLEDGE.sample
+  end
 end
