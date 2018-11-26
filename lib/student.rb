@@ -4,6 +4,6 @@ class Student < User
   end
 
   def learn
-    KNOWLEDGE << KNOWLEDGE.sample
+    @knowledge << KNOWLEDGE.sample
   end
 end
